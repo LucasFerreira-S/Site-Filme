@@ -1,0 +1,82 @@
+
+/*RESET*/
+* {margin: 0; padding: 0; font-size: 100% ;font-family: 'Source Serif Pro', serif; font-weight: normal
+box-sizing:border-box; border:none; outline:none;}
+ul{list-style: none;}
+a {text-decoration:none; font-size: 100%; font-family: serif; color: white;}
+h2 {font-size: 1.5em; color:white;}
+p {font-size: 1em; color: white;}
+
+/* CABEÇALHO*/
+.cabecalho {
+width:96.9%;
+background:#8B0000;
+padding:30px;
+height: 80px;
+}
+.cabecalho form{
+width: 50%;
+  float:right;
+  background:initial;
+}
+.cabecalho input[type="text"]{
+  width: 35%; 
+  color: #8B0000;
+  float: left; 
+  padding: 17px 10px;
+  border-radius: 5px 0px 0px 5px;
+  margin-left:280px;
+  border:none;
+  margin-top: -100px;
+}
+.cabecalho button{
+	 width: 12%;
+  margin-right: 50px;
+ float: right; 
+ padding: 17px 10px; 
+ background-color: #111;
+color: #fff; 
+cursor: pointer; 
+border-radius: 0px 5px 5px 0px;
+border:none;
+margin-top: -100px;
+}
+
+
+.logo a{
+  color: red;  
+  background:initial;
+  margin-top: -10px;
+  margin-left: 500px;
+  width:285px;
+  height: 100px;
+  float: left; 
+  background: url(../img/CentralDeAjuda.png) no-repeat;
+  font-size: 0;
+}
+/* MENU*/
+.menu{width: 100%; float: left;background-color: #111; padding: 18px 8%;}
+.menu li{float: left;}
+.menu li a{color: #9d9d9d; margin-right: 25px; padding: 0 20px;}
+.menu li a:hover{color: #fff;
+text-shadow:0px 0px 5px #fff;}
+/*PRINCIPAL*/
+.principal {width: 100%; float: left;;padding: 20px 8%;}
+.sobre {width: 70%; float: left; padding: 0 20px 20px 0;}
+.sobre h2{margin-top: 15px; color: black;}
+.sobre p {text-align: justify; color: black;}
+/*CADASTRO*/
+.CADASTRO {width: 100%;float: left; background-color: #8B0000; padding: 50px 8%;}
+.CADASTRO h3 {font-size: 1.8em; color: #fff;}
+.CADASTRO p {font-size: 1.2em; color: #fff;}
+.CADASTRO form {width: 100%; float: center;margin-top: 10px;}
+.CADASTRO form input {width: 40%;margin-right: 1%; padding: 15px 10px;border: 1px solid #111
+border-radius: 5px; color: #fff; /*background-color: initial;*/ float: center;}
+.CADASTRO button {width: 8%;background-color: black; color: white; padding: 15px 10px; border-radius: 10px; float: center; cursor: pointer; }
+/*RODAPÉ*/
+.rodape {
+	width: 100%;
+	 float: left;
+	 background-color: #111; 
+	 padding: 20px 8%;}
+.rodape  p {color: #fff;}
